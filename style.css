@@ -1,0 +1,17 @@
+#invalid
+{
+    font-size: 2em;
+    color: red;
+}
+
+#correct
+{
+    font-size: 2em;
+    color: green;
+}
+
+#Guess
+{
+    border-radius: 5px;
+    font-size: 1.5em;
+}
