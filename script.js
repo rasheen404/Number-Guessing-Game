@@ -7,6 +7,7 @@ function checkGuess() {
   const message = document.getElementById('message');
   const userGuess = parseInt(guessInput.value);
 
+  //Condition
   if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
     message.textContent = 'Please enter a valid number between 1 and 10.';
   } else {
